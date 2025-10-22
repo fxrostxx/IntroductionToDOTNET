@@ -73,8 +73,9 @@ namespace Arrays
 			Console.WriteLine($"Максимальный элемент массива: {arr.Cast<int>().Max()}"); 
 #endif
 
+#if JAGGED_ARRAYS
 			int[][] arr =
-			{
+				{
 				new int[] { 0, 1, 1, 2 },
 				new int[] { 3, 5, 8, 13, 21 },
 				new int[] { 34, 55, 89 },
@@ -108,7 +109,8 @@ namespace Arrays
 			Console.WriteLine($"Коичество элементов массива: {count}");
 			Console.WriteLine($"Среднее арифемтическое элементов массива: {(double)sum / count}");
 			Console.WriteLine($"Минимальный элемент массива: {min}");
-			Console.WriteLine($"Максимальный элемент массива: {max}");
+			Console.WriteLine($"Максимальный элемент массива: {max}"); 
+#endif
 		}
 	}
 }
