@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{7C3E9A96-7EF5-4AC2-9D6A-67647A34CF32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{86261E96-B58C-483B-8436-CACACD6F8E52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7C3E9A96-7EF5-4AC2-9D6A-67647A34CF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C3E9A96-7EF5-4AC2-9D6A-67647A34CF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C3E9A96-7EF5-4AC2-9D6A-67647A34CF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86261E96-B58C-483B-8436-CACACD6F8E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86261E96-B58C-483B-8436-CACACD6F8E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86261E96-B58C-483B-8436-CACACD6F8E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86261E96-B58C-483B-8436-CACACD6F8E52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
